@@ -106,7 +106,6 @@ This is a learning project built to practice Python fundamentals. The criteria a
 ## Author
 
 Rammal Ahmed
-LinkedIn: www.linkedin.com/in/rammal-ahmed-58184b325
-GitHub: https://github.com/Rammal-Ahmed
+LinkedIn: www.linkedin.com/in/rammal-ahmed-58184b325     GitHub: https://github.com/Rammal-Ahmed
 
 Feedback and suggestions are always welcome
