@@ -1,55 +1,112 @@
-**Bank Loan Eligibility Report (Version 2)**
+# Bank Loan Eligibility Report (Version 2)
 
+A simple command-line program written in Python that checks whether a customer meets the basic criteria for a bank loan. You enter a few details, and it prints a neat financial summary followed by a clear, criterion-by-criterion eligibility result.
 
-A beginner-friendly Python console application that collects customer details, summarizes key financial information, and checks basic loan eligibility criteria in a clean, formatted report.
-Overview
-This project demonstrates how Python can be used to collect user input, perform simple calculations, apply conditional logic, and present results in a readable console report. It calculates annual income from monthly income and provides a preliminary eligibility outcome based on the rules defined in the program.
-Note: This is an educational project, not a real bank assessment or a guarantee of loan approval. Actual lending decisions depend on each lender's policies and a wider range of financial information.
+This is Version 2 of the project. The first version only gave a yes or no. This one explains *why*, so the result is easier to read and trust.
 
-Features
-- Collects the customer's name, age, monthly income, account balance, and existing pending loan amount.
-- Calculates annual income from monthly income.
-- Displays a structured customer financial summary.
-- Checks age, minimum monthly income, and existing loan criteria individually.
-- Explains which eligibility criteria are not met.
-- Presents a final preliminary status in a formatted console report.
-Eligibility Rules
-The program marks a customer as eligible for further review only when all three checks pass.
-Criterion	Rule
-Age	18 to 95 years, inclusive
-Monthly income	At least Rs. 30,000
-Existing pending loan	Less than Rs. 500,000
+---
 
+## What it does
 
-Implementation detail: The account balance is collected and shown in the report, but it is not currently used in the eligibility decision.
-Suggested Project Structure
-bank-loan-eligibility-report/
-├── README.md
-├── loan_eligibility.py
-└── .gitignore
-Keep the Python source file at the project root and use the README as the first place visitors go to understand the project.
-Requirements
-- Python 3
-- No third-party packages are required
-How to Run
-1. Install Python 3 if it is not already installed.
-2. Save the program in a file named loan_eligibility.py.
-3. Open the project folder in VS Code.
-4. Open the integrated terminal from Terminal → New Terminal.
-5. Run the program:
-   python loan_eligibility.py
-   On Windows, you can also try:
-   py loan_eligibility.py
-6. Enter the requested customer details when prompted. Use numeric values for age and financial amounts.
-Example
-For a customer aged 30 with a monthly income of Rs. 60,000 and an existing pending loan of Rs. 200,000, the three eligibility checks pass. The report displays Eligible for Further Review. This is only the result of the program's predefined rules.
-Concepts Practised
-- input() and type conversion with int()
-- Variables and arithmetic operations
-- if / else conditional statements
-- Boolean flags for tracking eligibility
-- Formatted console output using print() and string methods
-Possible Improvements
-- Validate input to handle non-numeric or negative values gracefully.
-- Add further checks, such as account balance, if the project requirements define how they should affect eligibility.
-- Separate the assessment logic into functions and add automated tests.
+- Takes the customer's name, age, monthly income, account balance and existing loan amount
+- Calculates the annual income automatically
+- Prints a formatted financial summary
+- Checks three eligibility criteria and shows a reason whenever one is not met
+- Ends with a final status: eligible for further review, or not eligible
+
+## Eligibility criteria
+
+| Criteria | Requirement |
+|---|---|
+| Age | Between 18 and 95 years |
+| Monthly income | At least Rs. 30,000 |
+| Existing loan | Below Rs. 500,000 |
+
+A customer needs to pass all three to be marked as *Eligible for Further Review*. Account balance is recorded in the summary but is not part of the eligibility check in this version.
+
+## Getting started
+
+You only need Python 3 installed. No external libraries are used.
+
+```bash
+# clone the repository
+git clone https://github.com/your-username/bank-loan-eligibility-report.git
+
+# move into the folder
+cd bank-loan-eligibility-report
+
+# run the program
+python loan_eligibility.py
+```
+
+## Sample run
+
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   BANK LOAN ELIGIBILITY REPORT (VERSION 2)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Enter Customer Name: Ayesha Khan
+Enter Customer Age: 28
+Enter Current Monthly Income Rs: 65000
+Enter Current Account Balance Rs: 150000
+Enter Existing Pending Loan Amount Rs: 200000
+
+=============================================
+          CUSTOMER FINANCIAL SUMMARY
+=============================================
+
+Customer Name       : Ayesha Khan
+Customer Age        : 28
+Monthly Income      : Rs  65000
+Annual Income       : Rs  780000
+Account Balance     : Rs  150000
+Existing Loan       : Rs  200000
+
+=============================================
+            ELIGIBILITY ASSESSMENT
+=============================================
+
+Age Criteria        : Eligible
+Income Criteria     : Eligible
+Existing Loan       : Eligible
+
+=============================================
+
+Status: Eligible for Further Review
+Your details meet the basic eligibility criteria
+```
+
+If a criterion is not met, the report points it out with a short reason, for example:
+
+```
+Income Criteria     : Not Eligible
+Reason: Minimum monthly income is Rs. 30,000/-
+```
+
+## What I practiced
+
+- Taking and converting user input with `input()` and `int()`
+- Decision making with `if` / `else` and combined conditions
+- Using a flag variable (`eligible`) to track the overall result
+- Formatting terminal output with `center()` and string repetition
+
+## Ideas for the next version
+
+- Handle invalid input (letters instead of numbers, negative values)
+- Add a loan amount request and compare it with income
+- Use functions to split the code into smaller, reusable parts
+- Save each report to a text or CSV file
+- Let the program run for multiple customers in one session
+
+## Note
+
+This is a learning project built to practice Python fundamentals. The criteria are simple examples and do not reflect the real lending policy of any bank.
+
+## Author
+
+Rammal Ahmed
+LinkedIn: www.linkedin.com/in/rammal-ahmed-58184b325
+GitHub: https://github.com/Rammal-Ahmed
+
+Feedback and suggestions are always welcome
