@@ -1,4 +1,6 @@
-Bank Loan Eligibility Report (Version 2)
+**Bank Loan Eligibility Report (Version 2)**
+
+
 A beginner-friendly Python console application that collects customer details, summarizes key financial information, and checks basic loan eligibility criteria in a clean, formatted report.
 Overview
 This project demonstrates how Python can be used to collect user input, perform simple calculations, apply conditional logic, and present results in a readable console report. It calculates annual income from monthly income and provides a preliminary eligibility outcome based on the rules defined in the program.
