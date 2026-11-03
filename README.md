@@ -1,4 +1,4 @@
-# Bank Loan Eligibility Report (Version 2)
+#Loan Eligibility Report (Version 2)
 
 A simple command-line program written in Python that checks whether a customer meets the basic criteria for a bank loan. You enter a few details, and it prints a neat financial summary followed by a clear, criterion-by-criterion eligibility result.
 
