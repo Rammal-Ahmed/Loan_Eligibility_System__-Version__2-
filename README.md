@@ -117,7 +117,7 @@ Always open to fresh perspectives, constructive feedback, and new ideas
 
 ## License
 
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the **AGPL-3.0 license**. See the [LICENSE](LICENSE) file for details.
 
 ---
 
