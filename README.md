@@ -103,22 +103,6 @@ Reason: Minimum monthly income is Rs. 30,000/-
 
 This is a learning project built to practice Python fundamentals. The criteria are simple examples and do not reflect the real lending policy of any bank.
 
-www.linkedin.com/in/rammal-ahmed-58184b325
-https://github.com/Rammal-Ahmed
-
-Now tell me the Decription for the Repsoitiries
-
-which looks professional bold polish attractive decent and natural authentic organic believable elegant not look A I generated
-
-print(
-    
-      
-)
-print("=" * 40)
-print("SEE YOU IN THE NEXT REPOSITORIES..!".center(40))
-print("=" * 40)
-
-
 ## Author
 
 **Rammal Ahmed**
