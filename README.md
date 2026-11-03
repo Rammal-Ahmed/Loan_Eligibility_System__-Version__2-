@@ -103,12 +103,38 @@ Reason: Minimum monthly income is Rs. 30,000/-
 
 This is a learning project built to practice Python fundamentals. The criteria are simple examples and do not reflect the real lending policy of any bank.
 
+www.linkedin.com/in/rammal-ahmed-58184b325
+https://github.com/Rammal-Ahmed
+
+Now tell me the Decription for the Repsoitiries
+
+which looks professional bold polish attractive decent and natural authentic organic believable elegant not look A I generated
+
+print(
+    
+      
+)
+print("=" * 40)
+print("SEE YOU IN THE NEXT REPOSITORIES..!".center(40))
+print("=" * 40)
+
+
 ## Author
 
-Rammal Ahmed
+**Rammal Ahmed**
 
-AI & Data Science Enthusiast | Microsoft Dynamics 365 CRM Developer | UI/UX Designer | Graphic Designer & Illustrator | Power Platform
+AI & Data Science Enthusiast | Microsoft Dynamics 365 CRM Developer | Power Platform | UI/UX Designer | Graphic Designer & Illustrator
 
-LinkedIn: www.linkedin.com/in/rammal-ahmed-58184b325     GitHub: https://github.com/Rammal-Ahmed
+[LinkedIn] www.linkedin.com/in/rammal-ahmed-58184b325 · [GitHub] https://github.com/Rammal-Ahmed
 
-Feedback and suggestions are always welcome
+I truly value your feedback and welcome any suggestions for improvement
+Always open to fresh perspectives, constructive feedback, and new ideas
+---
+
+## License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+---
+
+**Project Status:** Completed
